@@ -1,5 +1,4 @@
-Panes zooming in tmux
-----------------
+# Panes zooming in tmux
 
 Install it in your personal bin directory (make sure to add it to your PATH):
 
@@ -9,5 +8,6 @@ Install it in your personal bin directory (make sure to add it to your PATH):
 
 And then set it up in ~/.tmux.conf
 
-    bind C-k run "tmux_zoom.rb"
+    bind C-k run "tmux-zoom.rb"
 
+Dependencies: tmux, ruby
