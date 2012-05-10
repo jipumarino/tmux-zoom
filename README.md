@@ -9,3 +9,5 @@ Install it in your personal bin directory (make sure to add it to your PATH):
 And then set it up in ~/.tmux.conf
 
     bind C-k run "tmux-zoom.sh"
+
+A brief screencast showing what it does: http://www.youtube.com/watch?v=Q3ovfB_duAI
