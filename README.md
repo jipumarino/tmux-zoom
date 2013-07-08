@@ -1,13 +1,5 @@
 # Panes zooming in tmux
 
-Install it in your personal bin directory (make sure to add it to your PATH):
+tmux 1.8 added the -Z flag to the resize-panes command, and it binds it by default to the PREFIX z shortcut.
 
-    mkdir -p ~/bin
-    wget https://raw.github.com/jipumarino/tmux-zoom/master/tmux-zoom.sh -O ~/bin/tmux-zoom.sh
-    chmod +x ~/bin/tmux-zoom.sh
-
-And then set it up in ~/.tmux.conf
-
-    bind C-k run "tmux-zoom.sh"
-
-A brief screencast showing what it does: http://www.youtube.com/watch?v=Q3ovfB_duAI
+No need for this dirty hack anymore!
